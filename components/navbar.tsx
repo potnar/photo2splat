@@ -32,6 +32,12 @@ export function Navbar() {
                 >
                     Manage Projects
                 </Link>
+                <Link
+                    href="/install"
+                    className="text-xs font-semibold text-blue-500 hover:text-blue-600"
+                >
+                    📱 Install
+                </Link>
                 <ThemeToggle />
             </div>
         </div>
